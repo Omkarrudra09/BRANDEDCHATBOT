@@ -33,20 +33,20 @@ BRANDEDCHAT = Client(
     bot_token = BOT_TOKEN
 )
 START =f"""
-**๏ ʜᴇʏ, ɪ ᴀᴍ {BOT_NAME}**
-**➻ᴀɴ ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ.**
+**☯︎ ʜᴇʏ, ɪ ᴀᴍ {BOT_NAME}**
+**☯︎ ᴀᴅᴠ ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ.**
 **──────────────────**
-**➻ ᴜsᴀɢᴇ /chatbot [on/off]**
-**๏ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴜsᴇ /help**
+**☯︎ ᴜsᴀɢᴇ /chatbot [on/off]**
+**☯︎ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴜsᴇ /help**
 """
 SOURCE_TEXT = f"""
-**๏ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}]
-➻ ᴀɴ ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ.
+**☯︎ ʜᴜɪ, ɪ ᴀᴍ [{BOT_NAME}]
+➻ ᴀᴅᴠ ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ.
 ──────────────────
-ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ**
+ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ᴘᴀɪᴅ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ**
 """
-SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('sᴏᴜʀᴄᴇ', callback_data='hurr')], [InlineKeyboardButton(" ꜱᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_GRP}"), InlineKeyboardButton(text="ʙᴀᴄᴋ ", callback_data="HELP_BACK")]])
-SOURCE = 'https://github.com/WCGKING/BRANDEDCHATBOT'
+SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('sᴏᴜʀᴄᴇ', callback_data='hurr')], [InlineKeyboardButton(" 🧧ɢʀᴏᴜᴘ🧧 ", url=f"https://t.me/{SUPPORT_GRP}"), InlineKeyboardButton(text="ʙᴀᴄᴋ ", callback_data="HELP_BACK")]])
+SOURCE = 'https://t.me/Nidhianurag'
 x=["❤️","🎉","✨","🪸","🎉","🎈","🎯"]
 g=choice(x)
 async def is_admins(chat_id: int):
@@ -73,24 +73,24 @@ MAIN = [
     ],
     [
         InlineKeyboardButton(text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", callback_data='source'),
-        InlineKeyboardButton(text=" ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/{UPDATE_CHNL}"),
+        InlineKeyboardButton(text=" 🧧ɢʀᴏᴜᴘ🧧 ", url=f"https://t.me/{UPDATE_CHNL}"),
     ],
 ]
 PNG_BTN = [
     [
          InlineKeyboardButton(
-             text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ",
+             text="ᴀᴅᴅ ᴍᴇ ᴊᴀɴɴᴜ",
              url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
          ),
      ],
      [
-         InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", 
-                              url=f"https://t.me/{SUPPORT_GRP}",
+         InlineKeyboardButton(text="🧧ɢʀᴏᴜᴘ🧧", 
+                              url=f"https://t.me/chattinghubucr",
          ),
      ],
 ]
 
-HELP_READ = "**ᴜsᴀɢᴇ ☟︎︎︎**\n**➻ ᴜsᴇ** `/chatbot on` **ᴛᴏ ᴇɴᴀʙʟᴇ ᴄʜᴀᴛʙᴏᴛ.**\n**➻ ᴜsᴇ** `/chatbot off` **ᴛᴏ ᴅɪsᴀʙʟᴇ ᴛʜᴇ ᴄʜᴀᴛʙᴏᴛ.**\n**๏ ɴᴏᴛᴇ ➻ ʙᴏᴛʜ ᴛʜᴇ ᴀʙᴏᴠᴇ ᴄᴏᴍᴍᴀɴᴅs ғᴏʀ ᴄʜᴀᴛ-ʙᴏᴛ ᴏɴ/ᴏғғ ᴡᴏʀᴋ ɪɴ ɢʀᴏᴜᴘ ᴏɴʟʏ!!**\n\n**➻ ᴜsᴇ** `/ping` **ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ ᴘɪɴɢ ᴏғ ᴛʜᴇ ʙᴏᴛ.**\n||©️ @BRANDRD_BOT||"
+HELP_READ = "**ᴜsᴀɢᴇ ☟︎︎︎**\n**༆ ᴜsᴇ** `/chatbot on` **ᴛᴏ ᴇɴᴀʙʟᴇ ᴄʜᴀᴛʙᴏᴛ.**\n**༆ ᴜsᴇ** `/chatbot off` **ᴛᴏ ᴅɪsᴀʙʟᴇ ᴛʜᴇ ᴄʜᴀᴛʙᴏᴛ.**\n**☯︎ ɴᴏᴛᴇ ༆ ʙᴏᴛʜ ᴛʜᴇ ᴀʙᴏᴠᴇ ᴄᴏᴍᴍᴀɴᴅs ғᴏʀ ᴄʜᴀᴛ-ʙᴏᴛ ᴏɴ/ᴏғғ ᴡᴏʀᴋ ɪɴ ɢʀᴏᴜᴘ ᴏɴʟʏ!!**\n\n**༆ ᴜsᴇ** `/ping` **ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ ᴘɪɴɢ ᴏғ ᴛʜᴇ ʙᴏᴛ.**\n||©️® @Nidhianurag||"
 HELP_BACK = [
      
     [
@@ -112,7 +112,7 @@ async def must_join_channel(bot: Client, msg: Message):
                 link = chat_info.invite_link
             try:
                 await msg.reply_photo(
-                    photo=START_IMG, caption=f"» ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ʏᴏᴜ'ᴠᴇ ɴᴏᴛ ᴊᴏɪɴᴇᴅ [ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ]({link}) ʏᴇᴛ, ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴜsᴇ ᴍᴇ ᴛʜᴇɴ ᴊᴏɪɴ [ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ]({link}) ᴀɴᴅ sᴛᴀʀᴛ ᴍᴇ ᴀɢᴀɪɴ !",
+                    photo=START_IMG, caption=f"༆ ᴍᴇʀᴇ ʜɪsᴀʙ sᴇ ᴛᴜ ᴊᴏɪɴ ɴᴇʜɪ ʜᴜᴀ 1sᴛ ᴊᴏɪɴ ᴋʀ [🧧ɢʀᴏᴜᴘ 1 🧧](https://t.me/chattinghubucr) ᴀɢᴀʀ ᴜsᴇ ᴋʀɴᴀ ᴄʜᴀᴛᴀ ʜᴀɪ ᴛᴏʜ ᴊᴏɪɴ ᴋʀ [🎀 ɢʀᴏᴜᴘ 2 🎀](https://t.me/F_I_R_group) ғɪʀ sᴛ ᴋʀ !",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
@@ -131,11 +131,11 @@ async def restart(client, m: Message):
         accha = await m.reply_text(
                         text = f"{g}")
         await asyncio.sleep(1)
-        await accha.edit("🦋𝗡𝗢𝗪 𝗖𝗢𝗠𝗘 𝗛𝗘𝗥𝗘 👉 @BRANDED_WORLD , @BRANDRD_BOT , @BRANDED_PAID_CC 𝗔𝗡𝗗 𝗠𝗔𝗞𝗘 𝗬𝗢𝗨𝗥 𝗚𝗜𝗥𝗟𝗙𝗥𝗜𝗡𝗗 🥀💋 𝗜𝗙 𝗬𝗢 𝗛𝗔𝗩𝗘 𝗔 𝗚𝗜𝗥𝗟𝗙𝗜𝗘𝗡𝗗  😘 𝗧𝗛𝗘𝗡 𝗬𝗢𝗨 𝗪𝗜𝗟𝗟 𝗚𝗜𝗙𝗧 🙊 𝗧𝗢 𝗠𝗬 𝗢𝗪𝗡𝗘𝗥 @BRANDEDKING82 ❤️")
+        await accha.edit(" ♕︎ ᴄʜᴀʟ ᴀʙ ɪᴅʜᴀʀ ᴅᴇᴋʜ ☞︎︎︎ @chattinghubucr , @Nidhianurag, @F_I_R_group ᴇ sᴀʙ ᴛᴏʜ ᴏᴡɴᴇʀ ᴏʀ 𝗚𝗥𝗢𝗨𝗣 ʜᴀɪ ᴀɢᴀʀ 𝗥𝗘𝗣𝗢 ᴄʜᴀʜɪʏᴇ ᴛᴏʜ ᴅᴍ ᴋʀ @Rudra0_9_1 🦚 ")
         await asyncio.sleep(0.5)
-        await accha.edit("🦋𝗡𝗢𝗪 𝗖𝗢𝗠𝗘 𝗛𝗘𝗥𝗘 👉 @BRANDED_WORLD , @BRANDRD_BOT , @BRANDED_PAID_CC 𝗔𝗡𝗗 𝗠𝗔𝗞𝗘 𝗬𝗢𝗨𝗥 𝗚𝗜𝗥𝗟𝗙𝗥𝗜𝗡𝗗 🥀💋 𝗜𝗙 𝗬𝗢 𝗛𝗔𝗩𝗘 𝗔 𝗚𝗜𝗥𝗟𝗙𝗜𝗘𝗡𝗗  😘 𝗧𝗛𝗘𝗡 𝗬𝗢𝗨 𝗪𝗜𝗟𝗟 𝗚𝗜𝗙𝗧 🙊 𝗧𝗢 𝗠𝗬 𝗢𝗪𝗡𝗘𝗥 @BRANDEDKING82 ❤️")
+        await accha.edit(" ♕︎ ᴄʜᴀʟ ᴀʙ ɪᴅʜᴀʀ ᴅᴇᴋʜ ☞︎︎︎ @chattinghubucr , @Nidhianurag, @F_I_R_group ᴇ sᴀʙ ᴛᴏʜ ᴏᴡɴᴇʀ ᴏʀ 𝗚𝗥𝗢𝗨𝗣 ʜᴀɪ ᴀɢᴀʀ 𝗥𝗘𝗣𝗢 ᴄʜᴀʜɪʏᴇ ᴛᴏʜ ᴅᴍ ᴋʀ @Rudra0_9_1 🦚 ")
         await asyncio.sleep(0.5)
-        await accha.edit("🦋𝗡𝗢𝗪 𝗖𝗢𝗠𝗘 𝗛𝗘𝗥𝗘 👉 @BRANDED_WORLD , @BRANDRD_BOT , @BRANDED_PAID_CC 𝗔𝗡𝗗 𝗠𝗔𝗞𝗘 𝗬𝗢𝗨𝗥 𝗚𝗜𝗥𝗟𝗙𝗥𝗜𝗡𝗗 🥀💋 𝗜𝗙 𝗬𝗢 𝗛𝗔𝗩𝗘 𝗔 𝗚𝗜𝗥𝗟𝗙𝗜𝗘𝗡𝗗  😘 𝗧𝗛𝗘𝗡 𝗬𝗢𝗨 𝗪𝗜𝗟𝗟 𝗚𝗜𝗙𝗧 🙊 𝗧𝗢 𝗠𝗬 𝗢𝗪𝗡𝗘𝗥 @BRANDEDKING82 ❤️")
+        await accha.edit(" ♕︎ ᴄʜᴀʟ ᴀʙ ɪᴅʜᴀʀ ᴅᴇᴋʜ ☞︎︎︎ @chattinghubucr , @Nidhianurag, @F_I_R_group ᴇ sᴀʙ ᴛᴏʜ ᴏᴡɴᴇʀ ᴏʀ 𝗚𝗥𝗢𝗨𝗣 ʜᴀɪ ᴀɢᴀʀ 𝗥𝗘𝗣𝗢 ᴄʜᴀʜɪʏᴇ ᴛᴏʜ ᴅᴍ ᴋʀ @Rudra0_9_1 🦚 ")
         await asyncio.sleep(0.5)
         await accha.delete()
         umm = await m.reply_sticker(
@@ -188,7 +188,7 @@ async def ping(client, message: Message):
         ms = (end-start).microseconds / 1000
         await message.reply_photo(
                              photo=START_IMG,
-                             caption=f"ʜᴇʏ ʙᴀʙʏ!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME})** ɪꜱ ᴀʟɪᴠᴇ 🥀 ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ ᴡɪᴛʜ ᴘᴏɴɢ ᴏꜰ \n➥ `{ms}` ms\n\n**ᴍᴀᴅᴇ ᴡɪᴛʜ ❣️ ʙʏ || [BRANDED KING](https://t.me/BRANDEDKING82)||**",
+                             caption=f"ʜᴇʏ ᴊᴀɴɴᴜ 😘 \n**[{BOT_NAME}](t.me/{BOT_USERNAME})** ɪꜱ ᴀʟɪᴠᴇ 🎀 ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ 😎 ᴡɪᴛʜ ᴘᴏɴɢ ᴏꜰ \n☞︎︎︎ `{ms}` ms\n\n**ᴍᴀᴅᴇ ʙʏ 🤭 || [🎀 ᴍᴀᴀʟᴋɪɴ 🎀](https://t.me/Nidhianurag)||**",
                              reply_markup=InlineKeyboardMarkup(PNG_BTN),
        )
 
@@ -463,5 +463,5 @@ async def vickprivatesticker(client: Client, message: Message):
            if not Yo == "text":
                await message.reply_sticker(f"{hey}")
 
-print(f"{BOT_NAME} ɪs ᴀʟɪᴠᴇ!")      
+print(f"{BOT_NAME} ɪs ᴀʟɪᴠᴇ 🌹 ")      
 BRANDEDCHAT.run()
